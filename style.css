@@ -732,6 +732,9 @@ p {
   .squre > p > a {
     font-size: 20px !important;
   }
+  .logos {
+    width: 13vw;
+  }
 
   .projects {
     display: grid;
