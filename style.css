@@ -266,6 +266,7 @@ p {
   background-color: gray;
   border-radius: 20px;
   padding-bottom: 20px;
+  margin-bottom: 0px !important;
 }
 
 .chart > ul {
