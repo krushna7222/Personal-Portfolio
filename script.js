@@ -42,3 +42,29 @@ const textContainer = document.getElementById('text-container');
 
     // Start typing the first text
     setTimeout(typeText, delayBetweenTexts);
+
+    // On Click Displey Mega-Menu
+
+    const menuItem = document.getElementById('menu-item');
+const megaMenu = document.getElementById('mega-menu');
+
+// Add click event listener to the menu item
+menuItem.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default anchor behavior
+    
+    // Toggle the visibility of the mega menu
+    if (megaMenu.style.display === 'block') {
+        megaMenu.style.display = 'none';
+    } else {
+        megaMenu.style.display = 'block';
+    }
+});
+
+// Optionally, close the mega menu when clicking outside of it
+document.addEventListener('click', function(event) {
+    const isClickInside = menuItem.contains(event.target) || megaMenu.contains(event.target);
+    
+    if (!isClickInside) {
+        megaMenu.style.display = 'none'; // Hide the mega menu if clicked outside
+    }
+});
