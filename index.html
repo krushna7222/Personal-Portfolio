@@ -56,7 +56,7 @@
         <div class="info">
           <h2>Hello...!!</h2>
           <h1>I am <span id="myname">KRUSHNA SHAHANE</span></h1>
-          <h1></h1>
+          <div><h1 id="first">And I am a&nbsp;</h1> <h1 id="text-container"></h1></div>
           <p>
             I am a Passionate Front End Developer with a knack for creating
             innovative and user-friendly web applications. Experienced in both
@@ -234,7 +234,7 @@
               Process Data from Dirty to Clean <br>
               Google Data Analytics Capstone: Complete a Case Study <br>
               Share Data Through the Art of Visualization</p>
-              <button class="detailbtn"><a href="https://www.sevenmentor.com/">Details &rarr;</a></button>
+              <button class="detailbtn"><a href="">Details &rarr;</a></button>
           </div>
           <div class="cource shaddow">
             <p><h3 id="projectitle">Google Project Management</h3></p>
@@ -249,7 +249,7 @@
               Foundations of Project Management
               
               Project Planning: Putting It All Together</p>
-              <button class="detailbtn"><a href="https://www.sevenmentor.com/">Details &rarr;</a></button>
+              <button class="detailbtn"><a href="">Details &rarr;</a></button>
           </div>
         </div>
       </section>
@@ -278,7 +278,7 @@
           <div><a href="https://www.linkedin.com/in/krushnashahane"
             ><i class="fa-brands fa-linkedin" id="linkedin"></i
           ></a>
-            <a href=""><i class="fa-brands fa-instagram" id="instagram"></i></a>
+            <a href="https://www.instagram.com/krushna_shahane_96k"><i class="fa-brands fa-instagram" id="instagram"></i></a>
             <a href="https://wa.link/90jlc2"
             ><i class="fa-brands fa-whatsapp" id="whatsapp"></i
           ></a>
@@ -321,16 +321,9 @@
 
     </footer>
 
-    <!-- Java Script For Download CV -->
+    <script src="script.js"></script>
 
-    <script>
-      document.getElementById('downloadcv').addEventListener('click', function() {
-          const link = document.createElement('a');
-          link.href = 'assets/Resume.pdf'; // Provide the correct path to the resume PDF
-          link.download = 'Resume.pdf'; // Specify the default name of the file
-          link.click();
-      });
-  </script>
+    
 
   </body>
 </html>
