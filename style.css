@@ -260,11 +260,12 @@ p {
   font-weight: 700;
 }
 .chart {
-  height: 40vh;
+  height: auto;
   width: 60vw;
   margin: 0vw 20vw 0vw 20vw;
   background-color: gray;
   border-radius: 20px;
+  padding-bottom: 20px;
 }
 
 .chart > ul {
@@ -591,11 +592,12 @@ p {
   }
 
   .chart {
-    height: 40vh;
+    height: auto;
     width: 80vw;
     margin: 0vw 10vw 0vw 10vw;
     background-color: gray;
     border-radius: 20px;
+    margin-bottom: 15px;
   }
   .bar-container {
     width: 45vw;
@@ -792,10 +794,11 @@ p {
   }
 
   .chart {
-    height: 40vh;
+    height: auto;
     width: 80vw;
     background-color: gray;
     border-radius: 20px;
+    padding-bottom: 10px;
   }
   .bar-container {
     width: 45vw;
