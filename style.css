@@ -151,9 +151,21 @@ section {
   width: 35vw;
   margin-top: 10px;
 }
+.info:nth-child(3) {
+  display: flex;
+}
+.info > div > h1 {
+  display: inline-block;
+}
+
+#text-container {
+  font-size: 30px;
+  color: rgb(17, 173, 51);
+}
 h2 {
   color: rgb(4, 213, 49);
   margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 #linkedin:hover {
@@ -170,6 +182,9 @@ h2 {
 }
 #mail:hover {
   color: blue;
+}
+h1 {
+  margin-left: 5px;
 }
 h1 > span {
   color: rgb(26, 255, 26);
