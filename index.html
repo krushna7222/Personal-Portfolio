@@ -76,7 +76,7 @@
           <a href="https://wa.link/90jlc2"
             ><i class="fa-brands fa-whatsapp" id="whatsapp"></i
           ></a>
-          <a href=""><i class="fa-solid fa-envelope" id="mail"></i></a><br />
+          <a href=""><i class="fa-solid fa-envelope" onclick="sendEmail()" id="emailIcon"></i></a><br />
 
           <a href="/assets/Resume.pdf"><input type="button" value="Download CV" id="downloadcv"/></a>
           <a href="https://www.linkedin.com/in/krushnashahane"><input type="button" value="Contact Me" /></a>
@@ -282,11 +282,11 @@
             <a href="https://wa.link/90jlc2"
             ><i class="fa-brands fa-whatsapp" id="whatsapp"></i
           ></a>
-          <a href=""><i class="fa-solid fa-envelope" id="mail"></i></a>
+          <a href=""><i class="fa-solid fa-envelope" id="emailIcon" onclick="sendEmail()" ></i></a>
           </div>
           <p><strong><i class="fa-solid fa-phone" id="whatsapp"></i> phone</strong> : 7249429868</p>
-          <p ><strong><i class="fa-solid fa-envelope" id="mail"></i> Mail</strong> : <a href="">krushnashahane17592@gmail.com</a></p>
-          <a href="https://www.linkedin.com/in/krushnashahane"><button class="contact-button">Hire Me</button></a><a href="https://mail.google.com/"><button class="contact-button">Message Me</button></a>
+          <p ><strong><i class="fa-solid fa-envelope" id="emailIcon" onclick="sendEmail()" ></i> Mail</strong> : <a href="" onclick="sendEmail()">krushnashahane17592@gmail.com</a></p>
+          <a href="https://www.linkedin.com/in/krushnashahane"><button class="contact-button">Hire Me</button></a><a href=""><button class="contact-button" onclick="sendEmail()">Message Me</button></a>
         </div>
       </div>
       </section>
@@ -315,7 +315,7 @@
         
         <div class="foot-content">
           <h4>Contact Me</h4>
-          <a href=""><i class="fa-solid fa-envelope footmailicon" id="mail"></i></a>
+          <a href=""><i class="fa-solid fa-envelope footmailicon" onclick="sendEmail()"></i></a>
         </div>
       </div>
 
